@@ -57,5 +57,10 @@ class Saxon extends Soldier {
   }
 }
 
+const s = new Saxon(100, 100);
+console.log(s.attack());
+console.log(s.receiveDamage(50));
+console.log(s.receiveDamage(60));
+
 // War
 class War {}
